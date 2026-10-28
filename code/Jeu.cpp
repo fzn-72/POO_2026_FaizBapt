@@ -70,7 +70,7 @@ void Jeu::creerJoueur() {
 }
 
 void Jeu::chargerItems() {
-    std::ifstream fichier("items.csv");
+    std::ifstream fichier("data/items.csv");
     std::string ligne;
 
     while (std::getline(fichier, ligne)) {
@@ -82,7 +82,7 @@ void Jeu::chargerItems() {
 }
 
 void Jeu::chargerMonstres() {
-    std::ifstream fichier("monsters.csv");
+    std::ifstream fichier("data/monsters.csv");
     std::string ligne;
 
     while (std::getline(fichier, ligne)) {
