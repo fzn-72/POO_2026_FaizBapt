@@ -1,0 +1,16 @@
+# Compiled files
+*.exe
+*.o
+*.obj
+*.out
+
+# IDE and build folders
+.vs/
+Debug/
+Release/
+x64/
+build/
+
+# Temporary files
+*.log
+*.tmp
